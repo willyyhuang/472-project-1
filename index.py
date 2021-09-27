@@ -8,7 +8,10 @@ plt.plot(['business', 'entertainment', 'politics', 'sport', 'tech'], [501, 386, 
 plt.savefig('BBC-distribution.pdf')
 
 # step 3, 4
-data = datasets.load_files('./data/BBC-20210914T194535Z-001/BBC', encoding='latin1')
+corpus = datasets.load_files('./data/BBC-20210914T194535Z-001/BBC', encoding='latin1')
 vectorizer = CountVectorizer()
-# X = vectorizer.fit_transform(data)
+term_document_matrix = vectorizer.fit_transform(corpus.data)
+
+# step 5
+
 
