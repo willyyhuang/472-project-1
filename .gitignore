@@ -128,8 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-BBC-distribution.pdf
 bbc-performance.txt
+BBC-distribution.pdf
 
 # IDEs
 .vscode
