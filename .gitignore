@@ -129,4 +129,7 @@ dmypy.json
 .pyre/
 
 BBC-distribution.pdf
+
+# IDEs
 .vscode
+.idea
