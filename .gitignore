@@ -129,6 +129,7 @@ dmypy.json
 .pyre/
 
 BBC-distribution.pdf
+bbc-performance.txt
 
 # IDEs
 .vscode
