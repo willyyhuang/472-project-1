@@ -1,6 +1,11 @@
 (a) what metric is best suited to this dataset/task and why (see step (2))
 
-
-
+Accuracy should be the metric that is best suited to this dataset/task, 
+because all the classes to be predicted are equally important and its number of instances are somewhat close for every class 
+the number of articles related to business is 510 and the number of articles related to sport is 511.
 
 (b) why the performance of steps (8-10) are the same or are different than those of step (7) above.
+
+step 8 returns exactly the same result as the first try, as the training set is completely identical, therefore generates the same model.
+as for step 9, it returns a slightly lower performance when evaluating accuracy, macro average and weighted average since the smoothing value is significantly different (0.1 compared to 1.0).
+for step 10, it returns exactly the same result as the first and second attempt since the default value is 1.0, 0.9 smoothing value is very close.
