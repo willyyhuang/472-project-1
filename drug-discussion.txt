@@ -8,3 +8,4 @@ The following models have the same performance at each iteration:
 - Perceptron with default parameters
 
 The only models that do not have same performance at each iteration based on 10 iterations are MLP and Top-MLP.
+The randomness of weight initialization can lead to different validation accuracy, therefore the different iteration of MLP models return different performance.
