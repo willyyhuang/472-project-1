@@ -131,6 +131,7 @@ dmypy.json
 bbc-performance.txt
 BBC-distribution.pdf
 drug-distribution.pdf
+drug-performance.txt
 
 # IDEs
 .vscode
