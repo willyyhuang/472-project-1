@@ -1,2 +1,10 @@
 Does the same model give you the same performance every time?
 
+No, not all models give the same performance at each iteration of training.
+The following models have the same performance at each iteration:
+- Gaussian Naive Bayes with default parameters
+- Decision Tree with default parameters
+- Top-DT with the specific parameters
+- Perceptron with default parameters
+
+The only models that do not have same performance at each iteration based on 10 iterations are MLP and Top-MLP.
